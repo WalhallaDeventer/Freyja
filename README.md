@@ -1,5 +1,6 @@
 # Freyja
 // Initiatie - 28-02-2017 - Kees van Kempen //
+
 Het intranet van Stichting Walhalla, Deventer. De naam voor nu is Freyja. Ik moest toch iets verzinnen >..<.
 
 Momenteel zijn slachtoffers van het ontwikkelteam:
