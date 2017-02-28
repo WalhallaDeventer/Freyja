@@ -1,0 +1,103 @@
+#eventBar {
+    padding: 2px;
+    width: 100%;
+    background-color: pink;
+    height: 30px;
+}
+#eventBar li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding: 2px 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#eventBar li#title {
+    padding: 4px 20px;
+    display: block;
+    font-weight: bold;
+}
+#eventBar li a {
+    display: block;
+    text-decoration: none;
+    padding: 2px 20px;
+    color: white;
+}
+#eventBar li a:hover, #eventBar li#current a {
+    color: aquamarine;
+}
+/*#cropped {
+    height: 150px;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#cropped img {
+    /*max-width: 400px;*
+    min-height: 100%;
+    min-width: 100%;
+    margin: -20% 0;
+    /* IE 8 *
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* IE 5-7 *
+    filter: alpha(opacity=0);
+    /* modern browsers *
+    opacity: 0;
+}*/
+
+#general {
+    float: left;
+    width: 60%;
+    height: 250px;
+}
+#timeline {
+    float: right;
+    width: 30%;
+    height: 250px;
+}
+table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    /*font-size: 14px;*/
+    background-color: rgb(255, 242, 204);
+    font-size: 13px;
+    margin: 0 auto;
+    width: 100%;
+}
+table tr td {
+    border: .5px solid black;
+    /*padding: 2px;*/
+    padding: 1px;
+}
+table tr.category {
+    font-weight: bold;
+}
+table tr.category th {
+    /*padding-right: 8px;*/
+    min-width: 60px;
+    border: .5px solid black;
+    font-weight: 700;
+    text-align: left;
+    padding-right: 5px;
+}
+table tr.total {
+    font-weight: bold;
+}
+table tr td input[type=text] {
+    border: none;
+    margin: 0;
+    padding: 0;
+    /*background-color: rgb(242, 242, 242);*/
+    background-color: #FAFAFA;
+    text-align: right;
+    padding-right: 2px;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    width: 100%;
+}
+table tr input[type=text] > td {
+    padding: 0;
+}
+table tr td.fin {
+    text-align: right;
+    padding-right: 2px;
+}

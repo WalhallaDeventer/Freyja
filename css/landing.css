@@ -1,0 +1,79 @@
+/* Freyja - Stichting Walhalla */
+body {
+	/*background-color: #000011;*/
+	background-image: url("/freyjanetbeans/images/landing.jpg");
+	background-size: 2400px auto;
+	background-attachment: fixed;
+    background-position: center; 
+	background-repeat: no-repeat;
+	scroll: no-scroll;
+}
+main {
+	background-image: url("/freyjanetbeans/images/bg.jpg");
+	min-width: 200px;
+	max-width: 300px;
+	/*max-width: 1200px;*/
+	min-height: 200px;
+	/*margin: 20% auto;*/
+	margin: 15% auto 0 auto;
+	padding: 20px;
+	opacity: .95;
+	
+	border-radius: .5px;
+	
+	-webkit-box-shadow: #666 1px 3px 3px;
+	-moz-box-shadow: #666 1px 3px 3px;
+	box-shadow: #666 1px 3px 3px;
+}
+section {
+	/*width: 1000px;
+	margin: auto;*/
+	padding: 20px;
+	text-align: center;
+	letter-spacing: .1px;
+}
+section input {
+	margin: 3px 0;
+}
+section input[type="submit"] {
+	background-color: #006699;
+	color: white;
+	font-weight: bold;
+	border: black solid 1px;
+	width: 177px;
+	padding: 2px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	/*font-family: 'Questrial', 'Fira Sans', sans-serif;*/
+}
+section #error {
+	width: 177px;
+	padding: auto 3px;
+	display: inline-block;
+	color: #CC4444;
+	font-weight: 600;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+}
+section #fblog {
+	width: 177px;
+	padding: auto 3px;
+	display: inline-block;
+	color: #006699;
+	font-weight: 600;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	margin: 0 2px;
+}
+header img {
+	display: block;
+	margin: 0 auto;
+	width: 177px;
+	-moz-user-select: none;
+}
+main {
+	
+}
+footer {
+	text-align: center;
+	font-size: 12px;
+}

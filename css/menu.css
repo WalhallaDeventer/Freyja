@@ -1,0 +1,163 @@
+/* DROPDOWN NAVIGATION CSS copyright Kees van Kempen */
+nav {
+	background-color: black;
+	margin: 0 -10px;
+	padding: 0;
+	height: 28px;
+}
+nav ul {
+	margin: 0;
+	padding: 0 20px;
+	list-style: none;
+	/*display: inline-table;*/
+	height: 100%;
+	position: relative;
+}
+nav ul li {
+	float: left;
+	border: 0px solid black;
+	position: relative;
+	margin: 0;
+	padding: 2px 0;
+}
+nav ul li:hover {
+	background-color: green;
+}
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	padding: 2px 20px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white;
+}
+nav ul ul {
+	display: none;
+	padding: 0;
+	float: none;
+	position: absolute;
+        min-width: 100%;
+	/*width: 100%;*/
+}
+nav ul ul li {
+	padding: 0;
+	display: block;
+	position: relative;
+	float: none;
+	background-color: blue;
+}
+nav ul li:hover > ul {
+	display: block;
+}
+
+nav li#user {
+	float: right;
+}
+nav li#user a {
+	width: 114px;
+	text-align: center;
+}
+nav li#user li a {
+	text-align: left;
+}
+/*/* DROPDOWN MENUUTJE *
+nav {
+	width: 100%;
+	background-color: #1D9AD6;
+	padding: 4px;
+	height: 20px;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: left;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0;
+	position: relative;
+	text-align: center;
+	/*border-left: 1px;
+	border-right: 1px;
+	border-top: 0;
+	border-bottom: 0;
+	border-color: black;
+	border-style: solid;*
+}
+nav ul li~li {
+	border-left: black solid 1px;
+}
+nav ul ul li {
+	border: .5px solid gray;
+	text-align: left;
+}
+nav ul li a, nav ul ul li a {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white;
+	text-decoration: none;
+	padding: 0 20px;
+	margin: 0;
+	width: 100%;
+}
+/*nav ul ul li {
+	margin: 0;
+	padding: 4px 0;
+	width: 100%;
+}*
+nav ul ul {
+	display: none;
+	position: absolute; 
+	background-color: #1D9AD6;
+	margin: 0;
+}
+nav ul li:hover > ul {
+	display: block;
+	width: 100%;
+}
+nav #loggedInAs {
+	float: right;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white;
+	padding: 0 20px;
+}
+/*nav {
+	border: 1px  solid black;
+}
+nav ul li {
+	display: inline-block;
+	padding: 0 20px;
+	margin: 2px;
+	text-align: center;
+	border: 1px;
+	background-color: rgb(0, 102, 153);
+}
+nav a {
+	text-decoration: none;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: white;
+}
+nav a:hover {
+	color: black;
+	background-color: green;
+}
+nav ul {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	display: inline-table;
+	padding: 0 20px;
+	background-color: white;
+}
+nav ul ul {
+	display: none;
+	float: none;
+	position: absolute;
+}
+nav ul ul li {
+	float: none;
+	position: relative;
+}
+nav ul li:hover > ul {
+	display: block;
+	float: none;
+}*/

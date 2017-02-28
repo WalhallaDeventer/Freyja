@@ -1,0 +1,22 @@
+\tbegin_Fanta Orange\t123
+\tbegin_Fanta Orange\t324
+3\tcoke\t342
+3\tcoke\t342
+3\tcoke\t342
+3\tcoke\t342
+3\tcoke\t342
+3\tcoke\t342
+3\tcoke\t342
+3\tcoke\t342
+1\tbegin_GROLSCH\t34
+1\tbegin_HERTOG JAN\t4
+1\tbegin_Coca Cola\t3
+1\tbegin_Coca Cola Light\t243
+1\tbegin_Fanta Orange\t76
+3\tcoke\t342
+1\tbegin_GROLSCH\tij
+1\tbegin_GROLSCH\t09i0
+1\tbegin_GROLSCH\t9090
+1\tbegin_HERTOG JAN\t980
+1\tbegin_Coca Cola\t90809
+
